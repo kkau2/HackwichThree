@@ -10,14 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
+        firstLabel.text = "About"
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
+    @IBOutlet var firstLabel: UILabel!
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+                // Dispose of any resources that can be recreated.
     }
 
 
