@@ -12,13 +12,13 @@ class secondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+self.secondTabLabel.text = "Tab Two"
         // Do any additional setup after loading the view.
     }
 
     @IBOutlet var secondTabLabel: UILabel!
     override func didReceiveMemoryWarning()
-    {self.secondTabLabel.text = "Tab Two"
+    {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
